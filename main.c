@@ -58,9 +58,7 @@ void mostraMatriz(int **matriz, int linhas, int colunas){
 
 
     for(i=0; i<linhas; i++){
-        
-        printf("\n");
-
+    
         for(j=0; j<colunas; j++){
 
             //dando espaço na matriz exceto no ultimo elemento da ultima linha e coluna                
@@ -72,6 +70,8 @@ void mostraMatriz(int **matriz, int linhas, int colunas){
             }
                  
         }
+        
+        printf("\n");
 
     }  
 
